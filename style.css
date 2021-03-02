@@ -123,3 +123,6 @@
     animation:lompat 0.8s infinite;
 }
 
+.navbar-logoo:hover {
+    opacity: 60%;
+}
