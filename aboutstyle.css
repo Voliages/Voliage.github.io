@@ -1,10 +1,12 @@
 * {
    scroll-behavior: smooth;
+   font-family: 'Red Hat Display';
 }
 .jumbotron {
     padding-top: 8rem;
     background-color: rgb(168, 218, 220);
 }
+
 
 .about {
 font-family: 'Red Hat Display', sans-serif; font-size: 50px; text-align: center;
