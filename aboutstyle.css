@@ -1,0 +1,53 @@
+* {
+   scroll-behavior: smooth;
+}
+.jumbotron {
+    padding-top: 8rem;
+    background-color: rgb(168, 218, 220);
+}
+
+.about {
+font-family: 'Red Hat Display', sans-serif; font-size: 50px; text-align: center;
+}
+
+.par1 {
+    font-family: 'Noto Sans';
+    display: flex;
+    width: 600px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.parg1{
+    text-align: justify;
+    transform: translateX(-40%);
+    text-align: justify; padding-left: 10px; font-family: 'Noto Sans'; padding-right: 5%;
+}
+
+.kotak-about {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 900px) {
+    .parg1 {
+    text-align: justify;
+    transform: translateX(0%);
+    text-align: justify; padding-left: 1px; font-family: 'Noto Sans'; padding-right: 0%;
+    }
+
+    .par1 {
+        font-family: 'Noto Sans';
+        width: 500px;
+        display: flex;
+        
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       
+    }
+}

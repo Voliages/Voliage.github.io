@@ -1,0 +1,120 @@
+.jumbotron {
+    padding-top: 8rem;
+    background-color: rgb(230, 57, 70);
+}
+
+.Blog-Baru {
+    Font-family: 'Red Hat Display', sans-serif; font-size: 50px; text-align: center;
+}
+
+.YouTube-Baru{
+    font-family: 'Red Hat Display', sans-serif; font-size: 30px; padding-left: 10%; text-align: center;
+}
+
+.nomorsatu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+@media (max-width: 900px) {
+    .nomorsatu {
+        display: flex; flex-direction: column; align-items: center; justify-content: center;
+    }
+    .YouTube-Baru {
+        font-family: 'Red Hat Display', sans-serif; font-size: 30px; padding-left: 0%; padding-top: 1%; text-align: center;
+    }
+    .ytplayer {
+        width: 280;
+        height: 158;
+    }
+}
+
+.yt-button {
+    text-align: center;
+    align-items: center;
+    position: relative;
+    top: 30px;
+    left: 0px;
+    right: 0px;
+}
+
+.align-center-btn {
+    position: relative;
+    top: 20%;
+}
+
+.channel {
+    border: none;
+    color: rgb(184, 29, 29);
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 1px 1px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.channel1 {
+    background-color: rgb(168, 218, 220);
+    color: rgb(0, 0, 0); 
+    border: 2px solid rgb(168, 218, 220);
+    box-shadow: inset;
+}
+
+.channel1:hover {
+    background-color: #666666;
+    color: white;
+    /* transform: translateY(-15%); */
+    font-weight: bolder;
+    -webkit-animation: lompat 0.8s infinite;
+    animation:lompat 0.8s infinite;
+}
+
+@-webkit-keyframes lompat {
+    0% {
+        transform: translateY(-15%);
+    }
+
+    25% {
+        transform: translateY(-10%);
+    }
+
+    50% {
+        transform: translateY(-5%);
+    }
+
+    75% {
+        transform: translateY(-10%);
+    }
+    100% {
+        transform: translateY(-15%);
+    }
+}
+
+@keyframes lompat {
+    0% {
+        transform: translateY(-15%);
+    }
+
+    25% {
+        transform: translateY(-10%);
+    }
+
+    50% {
+        transform: translateY(-5%);
+    }
+
+    75% {
+        transform: translateY(-10%);
+    }
+    100% {
+        transform: translateY(-15%);
+    }
+}
