@@ -1,95 +1,114 @@
-html {
-    scroll-behavior: smooth;
-}
-body{
-    margin: 0;
-    padding: 0;
-    font-family:Poppins;
-}
-h1{
-    font-size: 50px;
-    font-family:Audiowide;
-}
-p{
-    font-size: 24px;
-    line-height: 50px;
-}
-.navbar{
-    position: fixed;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    /* background-color: #D4D7DE; */
-    background-color: #ffffff;
-    width: 100%;
-    height: 85px;
-    z-index: 1;
-}
-.nav{
-    display: flex;
-    justify-content: right;
-    list-style: none;
-    margin-right: 15%;
-}
-.logo {
-    flex: 1 1 auto;
-    margin-left: 5%;
-    margin-top: 10px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-weight: bold;
-    font-size: 35px;
-}
-img{
-    width: 20%;
-}
-a{
-    margin: 10px;
-    color: #000;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-a:hover{
-    color: rgb(255, 0, 0);
-    
-}
-.banner-area{
-    position: relative;
-    background-image: url(https://i.postimg.cc/GtRM7mdX/1.jpg);
-    width: 100%;
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-size: cover;
+.jumbotron {
+    padding-top: 8rem;
+    background-color: rgb(230, 57, 70);
 }
 
-.about-area, .port-area, .service-area, .contact-area{
-    position: relative;
+.Blog-Baru {
+    Font-family: 'Red Hat Display', sans-serif; font-size: 50px; text-align: center;
+}
+
+.YouTube-Baru{
+    font-family: 'Red Hat Display', sans-serif; font-size: 30px; padding-left: 10%; text-align: center;
+}
+
+.nomorsatu {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
     flex-direction: row;
-    width: 100%;
-    height: 700px;
+    align-items: center;
+    justify-content: center;
 }
-.text-part{
-    width: 65%;
-    height: 80%;
-}        
-.about-area{
-    background-color: #fefefe;
+
+@media (max-width: 900px) {
+    .nomorsatu {
+        display: flex; flex-direction: column; align-items: center; justify-content: center;
+    }
+    .YouTube-Baru {
+        font-family: 'Red Hat Display', sans-serif; font-size: 30px; padding-left: 0%; padding-top: 1%; text-align: center;
+    }
 }
-.port-area{
-    background-color: #262626;
-    color: #fff;
+
+.yt-button {
+    text-align: center;
+    align-items: center;
+    position: relative;
+    top: 30px;
+    left: 0px;
+    right: 0px;
 }
-.service-area{
-    background-color: #fefefe;
+
+.align-center-btn {
+    position: relative;
+    top: 20%;
 }
-.contact-area{
-    background-color: #262626;
-    color: #fff;
+
+.channel {
+    border: none;
+    color: rgb(184, 29, 29);
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 1px 1px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.channel1 {
+    background-color: rgb(168, 218, 220);
+    color: rgb(0, 0, 0); 
+    border: 2px solid rgb(168, 218, 220);
+    box-shadow: inset;
+}
+
+.channel1:hover {
+    background-color: #666666;
+    color: white;
+    /* transform: translateY(-15%); */
+    font-weight: bolder;
+    -webkit-animation: lompat 0.8s infinite;
+    animation:lompat 0.8s infinite;
+}
+
+@-webkit-keyframes lompat {
+    0% {
+        transform: translateY(-15%);
+    }
+
+    25% {
+        transform: translateY(-10%);
+    }
+
+    50% {
+        transform: translateY(-5%);
+    }
+
+    75% {
+        transform: translateY(-10%);
+    }
+    100% {
+        transform: translateY(-15%);
+    }
+}
+
+@keyframes lompat {
+    0% {
+        transform: translateY(-15%);
+    }
+
+    25% {
+        transform: translateY(-10%);
+    }
+
+    50% {
+        transform: translateY(-5%);
+    }
+
+    75% {
+        transform: translateY(-10%);
+    }
+    100% {
+        transform: translateY(-15%);
+    }
 }
